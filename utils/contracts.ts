@@ -1,6 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 export const wethAddrs: any = {
   // mainnet = homestead // rainbowkit syntax
+  alveychain: '0xCb3e9919C56efF1004E54175a01e39163a352129',
   homestead: '0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2',
   gnosis: '0xe91D153E0b41518A2Ce8Dd3D7944Fa863463a97d',
   matic: '0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270',

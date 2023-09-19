@@ -27,7 +27,6 @@ const App = ({ Component, pageProps }: AppProps) => (
       />
       <link rel='icon' href='/favicon.ico' />
     </Head>
-    <div>
     <ChakraProvider theme={defaultTheme} resetCSS>
       <ColorModeScript initialColorMode='dark' />
       <Fonts />
@@ -37,7 +36,6 @@ const App = ({ Component, pageProps }: AppProps) => (
         </RainbowKitProvider>
       </WagmiConfig>
     </ChakraProvider>
-    </div>
   </>
 );
 

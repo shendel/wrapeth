@@ -1,5 +1,4 @@
 /* eslint-disable import/prefer-default-export */
-// @ts-nocheck
 import { connectorsForWallets } from '@rainbow-me/rainbowkit';
 import {
   argentWallet,
@@ -25,7 +24,6 @@ const connectors = connectorsForWallets([
         chains,
         shimDisconnect: false,
       }),
-      /*
       walletConnectWallet({
         projectId: process.env.NEXT_PUBLIC_PROJECT_ID || '',
         chains,
@@ -34,10 +32,8 @@ const connectors = connectorsForWallets([
         projectId: process.env.NEXT_PUBLIC_PROJECT_ID || '',
         chains,
       }),
-      */
     ],
   },
-  /*
   {
     groupName: 'Others',
     wallets: [
@@ -53,7 +49,6 @@ const connectors = connectorsForWallets([
       braveWallet({ chains }),
     ],
   },
-  */
 ]);
 
 export const wagmiConfig = createConfig({

@@ -6,6 +6,7 @@ import {
   Flex,
   Spacer,
   ButtonGroup,
+  BuiltByRaidGuild,
 } from '@raidguild/design-system';
 import '@rainbow-me/rainbowkit/styles.css';
 import { useAccount, useNetwork } from 'wagmi';
@@ -73,6 +74,10 @@ const App: React.FC<AppProps> = ({ children }: AppProps) => {
             )}
           </Card>
         </Container>
+
+        <Flex justify='flex-end' width='100%' my='6' mr='48px'>
+          <BuiltByRaidGuild />
+        </Flex>
       </Container>
       {children}
     </Flex>
